@@ -150,8 +150,9 @@ export default function App() {
   }}
   
   onClick={resetAll}>Close</button>
-          <h2>₵{selectedPrice}</h2>
-          <p>Select payment method</p>
+          <h1>₵{selectedPrice}</h1>
+          <p>You have selected {selectedPrice} with COKE package</p>
+         <p>How do you want to pay it </p>
 
           <div className="row">
           
@@ -193,8 +194,8 @@ export default function App() {
       {/* CASH MODAL */}
       {stage === 'cash' && selectedPrice && (
         <Modal>
-          <h2>Confirm Cash Payment</h2>
-          <p>Amount: ₵{selectedPrice}</p>
+          <h3>Confirm Cash Payment</h3>
+          <h1> ₵{selectedPrice}</h1>
 
           <div className="row">
             <button className="cancel" onClick={resetAll}>Cancel</button>
@@ -208,8 +209,8 @@ export default function App() {
       {/* MOMO MODAL */}
       {stage === 'momo' && selectedPrice && (
         <Modal>
-          <h2>Confirm MoMo Payment</h2>
-          <p>Amount: ₵{selectedPrice}</p>
+          <h3>Confirm MoMo Payment</h3>
+          <h1>₵{selectedPrice}</h1>
 
           <div className="row">
             <button className="cancel" onClick={resetAll}>Cancel</button>
