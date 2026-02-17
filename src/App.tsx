@@ -151,7 +151,7 @@ export default function App() {
   
   onClick={resetAll}>Close</button>
           <h1>₵{selectedPrice}</h1>
-          <p>You have selected {selectedPrice} with COKE package</p>
+          <p>You have selected ₵{selectedPrice} with COKE package</p>
          <p>How do you want to pay it </p>
 
           <div className="row">
@@ -195,6 +195,7 @@ export default function App() {
       {stage === 'cash' && selectedPrice && (
         <Modal>
           <h3>Confirm Cash Payment</h3>
+            <p>Do you want to confirm the order of </p>
           <h1> ₵{selectedPrice}</h1>
 
           <div className="row">
@@ -210,6 +211,7 @@ export default function App() {
       {stage === 'momo' && selectedPrice && (
         <Modal>
           <h3>Confirm MoMo Payment</h3>
+            <p>Do you want to confirm the order of </p>
           <h1>₵{selectedPrice}</h1>
 
           <div className="row">
