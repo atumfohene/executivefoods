@@ -152,7 +152,7 @@ export default function App() {
   onClick={resetAll}>Close</button>
           <h1>₵{selectedPrice}</h1>
           <p>You have selected ₵{selectedPrice} with COKE package</p>
-         <p>How do you want to pay it </p>
+         <p>How do you want to pay it todayyyyyyyy </p>
 
           <div className="row">
           
