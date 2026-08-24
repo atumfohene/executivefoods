@@ -93,7 +93,7 @@ export default function App() {
     sendToTelegram(`--------   WORK STARTED   --------\n@ ${getCurrentDateTime()}`)
   }
 >
-  Begin Work
+  Begin Work Today
 </button>
 
 
