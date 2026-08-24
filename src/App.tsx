@@ -169,7 +169,7 @@ export default function App() {
   }}
   onClick={() => setStage('cash')}
 >
-  Cash
+  Cash121
 </button>
 
 <button
